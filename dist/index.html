@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rivian</title>
     <link rel="stylesheet" href="/rivian/dist/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header class="sticky top-0">
-        <div class="flex gap-[500px] w-full hover:bg-[#ffffff] rounded-[11px] items-center shadow-lg z-50  absolute  top-12 p-4">
-            <div>
+    <header>
+        <div class="flex w-full gap-[350px] hover:bg-[#ffffff] hover:text-black text-[#ffffff] rounded-[11px] items-center fixed top-5 p-4 z-40">
+            
+            <div class="flex gap-10 text-2xl ml-10">
+                <div>
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                
                 <ul class="flex gap-[20px]">
                     <li>R2</li>
                     <li>R3</li>
@@ -22,22 +29,24 @@
         </div>
     </header>
 
-    <div class="w-full relative top-0">
-        <video class="w-[100%] " autoplay muted>
-            <source src="/rivian/dist/ASSETS/VID/document_5929387701441664225.mp4">
-        </video>
-    </div>
-    <main class="mt-[100px]">
+    
+    <main>
         <div class="justify-items-center">
+
+            <div class="w-full relative top-0">
+                <video class="w-[100%] " autoplay muted>
+                    <source src="/rivian/dist/ASSETS/VID/document_5929387701441664225.mp4">
+                </video>
+            </div>
           
-            <div class="flex justify-between gap-[160px] z-10 items-baseline absolute top-[100px]">
+            <div class="flex justify-between gap-40 z-10 items-baseline absolute top-[100px]">
 
                 <div>
                     <h1 class="text-[450px] text-[#ffffff]">R</h1>
                 </div>
 
 
-                <div class=" flex gap-[20px] items-center">
+                <div class=" flex gap-5 items-center">
                     <div class="bg-[#fefeff] px-10 py-5 rounded-[40px]">
                         <a href="#">Meet R2</a>
                     </div>
@@ -52,8 +61,8 @@
                     <h1 class="text-[450px] text-[#ffffff]">2</h1>
                 </div>
             </div>
-                <div class="w-[900px] mt-[100px] rounded-[15px]">
-                    <video controls class="w-full">
+                <div class="w-[900px] mt-[100px] rounded-[15px] bg-black">
+                    <video controls class="w-full rounded-3xl">
                         <source src="/rivian/dist/ASSETS/VID/document_5929387701441664226.mp4">
                     </video>
                 </div>
@@ -71,8 +80,8 @@
             </div>
         </div>
 
-        <div  class="mt-[120px] bg-[#202021]">
-            <div class="text-[#ffffff] items-center">
+        <section  class="mt-[120px] pb-28 bg-[#202021] justify-items-center">
+            <div class="text-[#ffffff]">
                <h1 class="text-[50px] pt-[90px] pb-[25px]">Our vehicles are always evolving</h1>
 
                <p class="text-[20px]">
@@ -80,58 +89,75 @@
             </div>
 
             <div class="flex mt-[100px] gap-5">
-                <div class="w-[400px] relative rounded-[25px]">
-                    <img src="/rivian/dist/ASSETS/IMG/eu_r1s_card_gdxicg.webp" alt="">
-                    <a href="#" class="bg-[#000000] px-10 py-5 rounded-[40px] text-[#ffffff] mb-[90px] absolute left-[30px] bottom-1">Explore the R1S</a>
+                <div class="w-[500px] relative rounded-[25px]">
+                    <img src="/rivian/dist/ASSETS/IMG/eu_r1s_card_gdxicg.webp" class="rounded-3xl" alt="">
+                    <div class="absolute left-[30px] bottom-[60px]">
+                        <a href="#" class="bg-[#ffffff] px-5 py-5 rounded-[40px] text-[#000000]">Explore the R1S</a>
+                    </div>
                 </div>
 
-                <div class="w-[400px] relative rounded-[25px]">
-                    <img src="/rivian/dist/ASSETS/IMG/eu_r1t_card_hckvdx.webp" alt="">
-                    <p class="bg-[#000000] px-10 py-5 rounded-[40px] text-[#ffffff] mb-[90px] absolute left-[30px] bottom-1">Explore the R1T</p>
+                <div class="w-[500px] relative rounded-[25px]">
+                    <img src="/rivian/dist/ASSETS/IMG/eu_r1t_card_hckvdx.webp" class="rounded-3xl" alt="">
+                    <div class="absolute left-[30px] bottom-[50px]">
+                        <a href="#" class="bg-[#ffffff] px-5 py-5 rounded-[40px] text-[#000000]">Explore the R1T</a>
+                    </div>
                 </div>
             </div>
 
-            <div>
+            <div class="flex mt-[20px] gap-5">
+                <div class="w-[500px] relative rounded-[25px]">
+                    <img src="/rivian/dist/ASSETS/IMG/charging_ibul09.webp" class="rounded-3xl">
+                    <div class="absolute left-[30px] bottom-[40px]">
+                        <a href="#" class="bg-[#ffffff] px-5 py-5 rounded-[40px] text-[#000000]">Explore vans</a>
+                    </div>
+                    
+                </div>
+
+                <div class="w-[500px] relative rounded-[25px]">
+                    <img src="/rivian/dist/ASSETS/IMG/eu_explore_technology_mwy8yf.webp" class="rounded-3xl"alt="">
+                    <div class="absolute left-[30px] bottom-[40px]">
+                        <a href="#" class="bg-[#ffffff] px-5 py-5 rounded-[40px] text-[#000000]">Explore technology</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-[#a15943] justify-items-center">
+                <div class="w-[950px] pt-20">
+                    <img src="/rivian/dist/ASSETS/IMG/sustainability_parallax_quote_noyhpd.webp" class="rounded-3xl" alt="">
+                </div>
+        
+                <div class="flex text-white gap-32 py-24">
+                    <div>
+                        <p class="text-4xl">Our mission is forever</p>
+                    </div>
+        
+                    <div>
+                        <p>We're here to preserve the planet for our kids and our kids' kids.<br> It's a huge objective — but
+                            one we believe is possible when<br>individuals and entire industries come together to
+                            create<br>fundamental change. By building uncompromising products for<br>exploring the world, we make
+                            it easy to join us and make a<br>difference.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="flex  bg-black text-white justify-between px-24 items-center py-24">
+        
+                <div class="text-2xl">
+                    <p>Rivian is coming to Europe — be one<br>of the first to get the latest news and<br>updates.</p>
+                </div>
+
                 <div>
-                    <img src="" alt="">
-                    <p>Explore vans</p>
+                    <a href="#" class="bg-white px-9 py-5 rounded-[40px] text-black mb-[90px] font-bold">Stay in touch</a>
                 </div>
+        </section>
 
-                <div>
-                    <img src="" alt="">
-                    <p>Explore technology</p>
-                </div>
-            </div>
-
-        </div>
-
-        <div>
-            <div>
-                <img src="/rivian/dist/ASSETS/IMG/sustainability_parallax_quote_noyhpd.webp" alt="">
-            </div>
-
-            <div>
-                <div>
-                    <p>Our mission is forever</p>
-                </div>
-
-                <div>
-                    <p>We're here to preserve the planet for our kids and our kids' kids. It's a huge objective — but one<br>we believe is possible when individuals and entire industries come together to create<br>fundamental change. By building uncompromising products for exploring the world, we make it<br>easy to join us and make a difference.</p>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <p>Rivian is coming to Europe — be one<br>of the first to get the latest news and<br>updates.</p>
-            </div>
-            <a href="#">Stay in touch</a>
-        </div>
     </main>
 
-    <footer>
-        <div>
-            <div>
+    <footer class="bg-[#202021] text-white">
+        <div class="flex justify-between ml-10 mr-56 py-28">
+            <div class="text-2xl">
                 <ul>
                     <li><a href="" #="href">Our company</a></li>
                     <li><a href="" #="href">Investors</a></li>
@@ -141,34 +167,57 @@
                 </ul>
             </div>
 
-            <div>
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="" #="href">Governance</a></li>
-                    <li><a href="" #="href">Newsroom</a></li>
-                    <li><a href="" #="href">Investors</a></li>
-                </ul>
-            </div>
 
-            <div>
-                <h4>Resources</h4>
-                <ul>
-                    <li><a href="" #="href">Careers</a></li>
-                </ul>
+            <div class="flex gap-56">
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="" #="href">Governance</a></li>
+                        <li><a href="" #="href">Newsroom</a></li>
+                        <li><a href="" #="href">Investors</a></li>
+                    </ul>
+                </div>
+            
+                <div>
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="" #="href">Careers</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <div>
-            <ul>
-                <li><a href="" #="href">Our company</a></li>
-                <li><a href="" #="href">Investors</a></li>
-                <li><a href="" #="href">Stories</a></li>
-                <li><a href="" #="href">Newsroom</a></li>
-                <li><a href="" #="href">Governance</a></li>
+        <div class="text-xs ml-11">
+            <ul class="flex gap-11">
+                <li><a href="#" class="underline">GB<i class='bx bx-globe text-xl align-middle'></i></a></li>
+                <li><a href="#">&copy; 2025 Rivian Europe B.V. All rights reserved.</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Legal Notice</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#"><i class='bx bx-toggle-right align-bottom'></i>Your privacy choices</a></li>
             </ul>
         </div>
 
-        <div>icons</div>
+        <div class="flex gap-5 ml-11 pb-16 pt-5">
+            <div class="bg-black text-white py-0.5 px-2 rounded-md text-2xl">
+                <i class='bx bxl-linkedin-square'></i>
+            </div>
+
+            <div class="bg-black text-white py-0.5 px-2 rounded-md text-2xl">
+                <i class='bx bxl-instagram'></i>
+            </div>
+
+            <div class="bg-black text-white py-0.5 px-2 rounded-md text-2xl">
+                <i class='bx bxl-twitter'></i>
+            </div>
+
+            <div class="bg-black text-white py-0.5 px-2 rounded-md text-2xl">
+                <i class='bx bxl-youtube'></i>
+            </div>
+
+        </div>
     </footer>
     
 </body>
